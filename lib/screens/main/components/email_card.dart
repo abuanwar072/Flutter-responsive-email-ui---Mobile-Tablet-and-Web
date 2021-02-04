@@ -19,8 +19,10 @@ class EmailCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //  Here the shadow is not showing properly
     return Padding(
-      padding: EdgeInsets.only(top: 20),
+      padding: EdgeInsets.symmetric(
+          horizontal: kDefaultPadding, vertical: kDefaultPadding / 2),
       child: InkWell(
         onTap: press,
         child: Stack(

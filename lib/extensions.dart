@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// Our design contains Neumorphism design and i made a extention for it
+// We can apply it on any  widget
+
 extension Neumorphism on Widget {
   addNeumorphism({
     double borderRadius = 10.0,
