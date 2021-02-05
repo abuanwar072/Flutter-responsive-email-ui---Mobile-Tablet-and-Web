@@ -26,14 +26,11 @@ class _ListOfEmailsState extends State<ListOfEmails> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _scaffoldKey,
-      // Side menu is pretty big now
       drawer: ConstrainedBox(
-        // Here we limit the max width of out side menu
         constraints: BoxConstraints(maxWidth: 250),
         child: SideMenu(),
       ),
       body: Container(
-        // But we add it if user run our app on web only
         padding: EdgeInsets.only(top: kIsWeb ? kDefaultPadding : 0),
         color: kBgDarkColor,
         child: SafeArea(

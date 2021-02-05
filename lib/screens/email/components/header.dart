@@ -15,7 +15,6 @@ class Header extends StatelessWidget {
       padding: const EdgeInsets.all(kDefaultPadding),
       child: Row(
         children: [
-          // There is no way to going back
           // We need this back button on mobile only
           if (Responsive.isMobile(context)) BackButton(),
           IconButton(
