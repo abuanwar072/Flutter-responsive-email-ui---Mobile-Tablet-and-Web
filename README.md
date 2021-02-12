@@ -3,7 +3,7 @@
 ## [Watch it on YouTube](https://youtu.be/0mp-Ok00WZE)
 
 <div class="text-red">
-  ## Flutter web work on beta make sure you change your channel, <a href="https://flutter.dev/docs/get-started/web">Configure the flutter tool for web support</a>
+  Flutter web work on beta make sure you change your channel, <a href="https://flutter.dev/docs/get-started/web">Configure the flutter tool for web support</a>
 </div>
 
 **Packages we are using:**
