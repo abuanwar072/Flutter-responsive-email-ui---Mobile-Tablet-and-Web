@@ -30,8 +30,8 @@ class SideMenuItem extends StatelessWidget {
         child: Row(
           children: [
             (isActive || isHover)
-                ? WebsafeSvg.asset(
-                    "assets/Icons/Angle right.svg",
+                ? Image.asset(
+                    "assets/Icons/angleright.png",
                     width: 15,
                   )
                 : SizedBox(width: 15),
@@ -48,7 +48,7 @@ class SideMenuItem extends StatelessWidget {
                     : null,
                 child: Row(
                   children: [
-                    WebsafeSvg.asset(
+                    Image.asset(
                       iconSrc,
                       height: 20,
                       color: (isActive || isHover) ? kPrimaryColor : kGrayColor,

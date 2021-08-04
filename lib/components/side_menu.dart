@@ -47,7 +47,7 @@ class SideMenu extends StatelessWidget {
                 ),
                 color: kPrimaryColor,
                 onPressed: () {},
-                icon: WebsafeSvg.asset("assets/Icons/Edit.svg", width: 16),
+                icon: Image.asset("assets/Icons/edit.png", width: 16),
                 label: Text(
                   "New message",
                   style: TextStyle(color: Colors.white),
@@ -67,7 +67,7 @@ class SideMenu extends StatelessWidget {
                 ),
                 color: kBgDarkColor,
                 onPressed: () {},
-                icon: WebsafeSvg.asset("assets/Icons/Download.svg", width: 16),
+                icon: Image.asset("assets/Icons/download.png", width: 16),
                 label: Text(
                   "Get messages",
                   style: TextStyle(color: kTextColor),
@@ -78,26 +78,26 @@ class SideMenu extends StatelessWidget {
               SideMenuItem(
                 press: () {},
                 title: "Inbox",
-                iconSrc: "assets/Icons/Inbox.svg",
+                iconSrc: "assets/Icons/inbox.png",
                 isActive: true,
                 itemCount: 3,
               ),
               SideMenuItem(
                 press: () {},
                 title: "Sent",
-                iconSrc: "assets/Icons/Send.svg",
+                iconSrc: "assets/Icons/send.png",
                 isActive: false,
               ),
               SideMenuItem(
                 press: () {},
                 title: "Drafts",
-                iconSrc: "assets/Icons/File.svg",
+                iconSrc: "assets/Icons/file.png",
                 isActive: false,
               ),
               SideMenuItem(
                 press: () {},
                 title: "Deleted",
-                iconSrc: "assets/Icons/Trash.svg",
+                iconSrc: "assets/Icons/trash.png",
                 isActive: false,
                 showBorder: false,
               ),

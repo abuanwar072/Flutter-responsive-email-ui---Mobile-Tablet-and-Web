@@ -18,29 +18,29 @@ class Header extends StatelessWidget {
           // We need this back button on mobile only
           if (Responsive.isMobile(context)) BackButton(),
           IconButton(
-            icon: WebsafeSvg.asset(
-              "assets/Icons/Trash.svg",
+            icon: Image.asset(
+              "assets/Icons/trash.png",
               width: 24,
             ),
             onPressed: () {},
           ),
           IconButton(
-            icon: WebsafeSvg.asset(
-              "assets/Icons/Reply.svg",
+            icon: Image.asset(
+              "assets/Icons/reply.png",
               width: 24,
             ),
             onPressed: () {},
           ),
           IconButton(
-            icon: WebsafeSvg.asset(
-              "assets/Icons/Reply all.svg",
+            icon: Image.asset(
+              "assets/Icons/replyall.png",
               width: 24,
             ),
             onPressed: () {},
           ),
           IconButton(
-            icon: WebsafeSvg.asset(
-              "assets/Icons/Transfer.svg",
+            icon: Image.asset(
+              "assets/Icons/transfer.png",
               width: 24,
             ),
             onPressed: () {},
@@ -49,22 +49,22 @@ class Header extends StatelessWidget {
           // We don't need print option on mobile
           if (Responsive.isDesktop(context))
             IconButton(
-              icon: WebsafeSvg.asset(
-                "assets/Icons/Printer.svg",
+              icon: Image.asset(
+                "assets/Icons/printer.png",
                 width: 24,
               ),
               onPressed: () {},
             ),
           IconButton(
-            icon: WebsafeSvg.asset(
-              "assets/Icons/Markup.svg",
+            icon: Image.asset(
+              "assets/Icons/markup.png",
               width: 24,
             ),
             onPressed: () {},
           ),
           IconButton(
-            icon: WebsafeSvg.asset(
-              "assets/Icons/More vertical.svg",
+            icon: Image.asset(
+              "assets/Icons/morevertical.png",
               width: 24,
             ),
             onPressed: () {},

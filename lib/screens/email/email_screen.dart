@@ -111,8 +111,8 @@ class EmailScreen extends StatelessWidget {
                                               .caption,
                                         ),
                                         SizedBox(width: kDefaultPadding / 4),
-                                        WebsafeSvg.asset(
-                                          "assets/Icons/Download.svg",
+                                        Image.asset(
+                                          "assets/Icons/download.png",
                                           height: 16,
                                           color: kGrayColor,
                                         ),

@@ -79,8 +79,8 @@ class EmailCard extends StatelessWidget {
                           ),
                           SizedBox(height: 5),
                           if (email.isAttachmentAvailable)
-                            WebsafeSvg.asset(
-                              "assets/Icons/Paperclip.svg",
+                            Image.asset(
+                              "assets/Icons/paperclip.png",
                               color: isActive ? Colors.white70 : kGrayColor,
                             )
                         ],
@@ -127,8 +127,8 @@ class EmailCard extends StatelessWidget {
               Positioned(
                 left: 8,
                 top: 0,
-                child: WebsafeSvg.asset(
-                  "assets/Icons/Markup filled.svg",
+                child: Image.asset(
+                  "assets/Icons/markupfilled.png",
                   height: 18,
                   color: email.tagColor,
                 ),

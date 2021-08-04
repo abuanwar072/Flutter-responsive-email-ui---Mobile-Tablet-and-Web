@@ -14,9 +14,9 @@ class Tags extends StatelessWidget {
       children: [
         Row(
           children: [
-            WebsafeSvg.asset("assets/Icons/Angle down.svg", width: 16),
+            Image.asset("assets/Icons/angledown.png", width: 16),
             SizedBox(width: kDefaultPadding / 4),
-            WebsafeSvg.asset("assets/Icons/Markup.svg", width: 20),
+            Image.asset("assets/Icons/markup.png", width: 20),
             SizedBox(width: kDefaultPadding / 2),
             Text(
               "Tags",
@@ -55,8 +55,8 @@ class Tags extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(kDefaultPadding * 1.5, 10, 0, 10),
         child: Row(
           children: [
-            WebsafeSvg.asset(
-              "assets/Icons/Markup filled.svg",
+            Image.asset(
+              "assets/Icons/markupfilled.png",
               height: 18,
               color: color,
             ),
