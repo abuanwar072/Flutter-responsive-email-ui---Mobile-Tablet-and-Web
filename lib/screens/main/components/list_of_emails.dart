@@ -63,8 +63,8 @@ class _ListOfEmailsState extends State<ListOfEmails> {
                           suffixIcon: Padding(
                             padding: const EdgeInsets.all(
                                 kDefaultPadding * 0.75), //15
-                            child: WebsafeSvg.asset(
-                              "assets/Icons/Search.svg",
+                            child: Image.asset(
+                              "assets/Icons/search.png",
                               width: 24,
                             ),
                           ),
@@ -84,8 +84,8 @@ class _ListOfEmailsState extends State<ListOfEmails> {
                     const EdgeInsets.symmetric(horizontal: kDefaultPadding),
                 child: Row(
                   children: [
-                    WebsafeSvg.asset(
-                      "assets/Icons/Angle down.svg",
+                    Image.asset(
+                      "assets/Icons/angledown.png",
                       width: 16,
                       color: Colors.black,
                     ),
@@ -98,8 +98,8 @@ class _ListOfEmailsState extends State<ListOfEmails> {
                     MaterialButton(
                       minWidth: 20,
                       onPressed: () {},
-                      child: WebsafeSvg.asset(
-                        "assets/Icons/Sort.svg",
+                      child: Image.asset(
+                        "assets/Icons/sort.png",
                         width: 16,
                       ),
                     ),
